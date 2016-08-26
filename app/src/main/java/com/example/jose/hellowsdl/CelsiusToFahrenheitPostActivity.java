@@ -28,6 +28,8 @@ public class CelsiusToFahrenheitPostActivity extends AppCompatActivity {
         setContentView(R.layout.activity_celsius_to_fahrenheit_post);
         tCelsius = (EditText) findViewById(R.id.tCelsius);
         tFahrenheit = (EditText) findViewById(R.id.tFahrenheit);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public void onClickConverter(View view) {

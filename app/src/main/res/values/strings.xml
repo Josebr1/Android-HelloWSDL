@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HelloWSDL</string>
+    <string name="post">POST</string>
+    <string name="ksoap">KSoap</string>
 </resources>
